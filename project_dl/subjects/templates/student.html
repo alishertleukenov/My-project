@@ -1,0 +1,12 @@
+
+{% extends 'user_page.html' %}
+
+{% block student %}
+<h4>Parent Name is</h4>
+<p>{{ parent.parent_name }} {{ parent.parent_surname }}</p>
+    <h4>Students</h4>
+<p>{{ student.student_name }} {{ student.student_surname }} </p>
+
+<hr>
+
+{% endblock %}
